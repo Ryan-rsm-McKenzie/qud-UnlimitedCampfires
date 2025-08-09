@@ -18,7 +18,7 @@ namespace UnlimitedCampfires
 		{
 			var getPointsOfInterest = new CodeMatch[] {
 				new(OpCodes.Ldarg_1),
-				new(OpCodes.Ldstr, "Campfire"),
+				new(OpCodes.Ldstr, "PlayerCampfire"),
 				new(OpCodes.Ldnull),
 				new(OpCodes.Call, AccessTools.Method(
 					type: typeof(GetPointsOfInterestEvent),
